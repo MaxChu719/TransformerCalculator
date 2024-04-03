@@ -1,7 +1,9 @@
 # TransformerCalculator
 Can a simple deep Transformer model able to learn to be a calculator? 
 
-For example, if we input "((272-844+960)+257)*711", output will be "458595".
+For example:
+- input: ```"((272-844+960)+257)*711"```, output: ```"458595"```.
+- input: ```"776/(41*988)/414*991"```, output: ```"0.045856"```.
 
 This repo is an educational tutorial for writing a simple PyTorch Transformer model with custom dataset.
 
